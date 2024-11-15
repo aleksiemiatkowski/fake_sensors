@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/aleksander/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aleksander/fake_sensors/build/fake_sensors -- -j8 -l8
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/fake_lidar.dir/src/fake_lidar.cpp.o[0m
+[5.605s] [100%] [32m[1mLinking CXX executable fake_lidar[0m
+[5.765s] [100%] Built target fake_lidar
+[5.788s] Invoked command in '/home/aleksander/fake_sensors/build/fake_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aleksander/fake_sensors/build/fake_sensors -- -j8 -l8
+[5.896s] Invoking command in '/home/aleksander/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aleksander/fake_sensors/build/fake_sensors
+[5.918s] -- Install configuration: ""
+[5.919s] -- Installing: /home/aleksander/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_lidar
+[5.919s] -- Set non-toolchain portion of runtime path of "/home/aleksander/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_lidar" to ""
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/ament_index/resource_index/package_run_dependencies/fake_sensors
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/ament_index/resource_index/parent_prefix_path/fake_sensors
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.sh
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.dsv
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/environment/path.sh
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/environment/path.dsv
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.bash
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.sh
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.zsh
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.dsv
+[5.919s] -- Installing: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/package.dsv
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/ament_index/resource_index/packages/fake_sensors
+[5.919s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig.cmake
+[5.920s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig-version.cmake
+[5.920s] -- Up-to-date: /home/aleksander/fake_sensors/install/fake_sensors/share/fake_sensors/package.xml
+[5.923s] Invoked command in '/home/aleksander/fake_sensors/build/fake_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aleksander/fake_sensors/build/fake_sensors

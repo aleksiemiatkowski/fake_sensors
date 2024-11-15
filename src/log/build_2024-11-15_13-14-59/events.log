@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.001419] (fake_sensors) JobQueued: {'identifier': 'fake_sensors', 'dependencies': OrderedDict()}
+[0.001500] (fake_sensors) JobStarted: {'identifier': 'fake_sensors'}
+[0.012028] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'cmake'}
+[0.012078] (fake_sensors) Command: {'cmd': ['/usr/bin/cmake', '/home/aleksander/fake_sensors/src/fake_sensors', '-DCMAKE_INSTALL_PREFIX=/home/aleksander/fake_sensors/src/install/fake_sensors'], 'cwd': '/home/aleksander/fake_sensors/src/build/fake_sensors', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aleksander', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aleksander', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/aleksander/fake_sensors', 'TERM_PROGRAM_VERSION': '1.95.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2185', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aleksander/fake_sensors/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aleksander', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aleksander', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/UBUNTU-LAB:@/tmp/.ICE-unix/2149,unix/UBUNTU-LAB:/tmp/.ICE-unix/2149', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b805caa1_55c1_4d75_bcb7_dc5f6c503b90', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J6ZIX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fbcf5989bb.sock', 'GNOME_TERMINAL_SERVICE': ':1.106', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aleksander/fake_sensors/install/fake_sensors:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aleksander/fake_sensors/src/build/fake_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/aleksander/fake_sensors/install/fake_sensors:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.079181] (fake_sensors) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.100081] (-) TimerEvent: {}
+[0.171034] (fake_sensors) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.200188] (-) TimerEvent: {}
+[0.219937] (fake_sensors) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300631] (-) TimerEvent: {}
+[0.401266] (-) TimerEvent: {}
+[0.443440] (fake_sensors) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.454567] (fake_sensors) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.455248] (fake_sensors) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.455502] (fake_sensors) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.483372] (fake_sensors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501355] (-) TimerEvent: {}
+[0.601805] (-) TimerEvent: {}
+[0.662380] (fake_sensors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.676273] (fake_sensors) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.676452] (fake_sensors) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.676613] (fake_sensors) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.677229] (fake_sensors) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.703432] (-) TimerEvent: {}
+[0.803710] (-) TimerEvent: {}
+[0.854317] (fake_sensors) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.903859] (-) TimerEvent: {}
+[0.974115] (fake_sensors) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.005574] (-) TimerEvent: {}
+[1.011846] (fake_sensors) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.026569] (fake_sensors) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.042336] (fake_sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.061819] (fake_sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.106642] (-) TimerEvent: {}
+[1.151838] (fake_sensors) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.153683] (fake_sensors) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.207535] (-) TimerEvent: {}
+[1.301740] (fake_sensors) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.308072] (-) TimerEvent: {}
+[1.328030] (fake_sensors) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.376596] (fake_sensors) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.410602] (-) TimerEvent: {}
+[1.483169] (fake_sensors) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.510971] (-) TimerEvent: {}
+[1.560177] (fake_sensors) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.611635] (-) TimerEvent: {}
+[1.699523] (fake_sensors) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.699795] (fake_sensors) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aleksander/fake_sensors/src/fake_sensors/include>\n'}
+[1.699859] (fake_sensors) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.701251] (fake_sensors) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.701587] (fake_sensors) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.701667] (fake_sensors) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.702074] (fake_sensors) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.704314] (fake_sensors) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.711849] (-) TimerEvent: {}
+[1.717955] (fake_sensors) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.726886] (fake_sensors) StdoutLine: {'line': b'-- Build files have been written to: /home/aleksander/fake_sensors/src/build/fake_sensors\n'}
+[1.738888] (fake_sensors) CommandEnded: {'returncode': 0}
+[1.741057] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'build'}
+[1.741126] (fake_sensors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aleksander/fake_sensors/src/build/fake_sensors', '--', '-j8', '-l8'], 'cwd': '/home/aleksander/fake_sensors/src/build/fake_sensors', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aleksander', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aleksander', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/aleksander/fake_sensors', 'TERM_PROGRAM_VERSION': '1.95.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2185', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aleksander/fake_sensors/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aleksander', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aleksander', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/UBUNTU-LAB:@/tmp/.ICE-unix/2149,unix/UBUNTU-LAB:/tmp/.ICE-unix/2149', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b805caa1_55c1_4d75_bcb7_dc5f6c503b90', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J6ZIX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fbcf5989bb.sock', 'GNOME_TERMINAL_SERVICE': ':1.106', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aleksander/fake_sensors/install/fake_sensors:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aleksander/fake_sensors/src/build/fake_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/aleksander/fake_sensors/install/fake_sensors:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.812190] (-) TimerEvent: {}
+[1.879669] (fake_sensors) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fake_lidar.dir/src/fake_lidar.cpp.o\x1b[0m\n'}
+[1.913861] (-) TimerEvent: {}
+[2.016071] (-) TimerEvent: {}
+[2.116506] (-) TimerEvent: {}
+[2.218231] (-) TimerEvent: {}
+[2.319204] (-) TimerEvent: {}
+[2.421648] (-) TimerEvent: {}
+[2.522155] (-) TimerEvent: {}
+[2.622636] (-) TimerEvent: {}
+[2.723234] (-) TimerEvent: {}
+[2.825486] (-) TimerEvent: {}
+[2.926819] (-) TimerEvent: {}
+[3.028930] (-) TimerEvent: {}
+[3.129438] (-) TimerEvent: {}
+[3.230306] (-) TimerEvent: {}
+[3.330913] (-) TimerEvent: {}
+[3.431455] (-) TimerEvent: {}
+[3.533039] (-) TimerEvent: {}
+[3.633899] (-) TimerEvent: {}
+[3.734828] (-) TimerEvent: {}
+[3.838758] (-) TimerEvent: {}
+[3.941841] (-) TimerEvent: {}
+[4.042575] (-) TimerEvent: {}
+[4.159048] (-) TimerEvent: {}
+[4.278156] (-) TimerEvent: {}
+[4.397332] (-) TimerEvent: {}
+[4.508724] (-) TimerEvent: {}
+[4.613098] (-) TimerEvent: {}
+[4.722424] (-) TimerEvent: {}
+[4.828929] (-) TimerEvent: {}
+[4.930469] (-) TimerEvent: {}
+[5.049498] (-) TimerEvent: {}
+[5.152984] (-) TimerEvent: {}
+[5.280420] (-) TimerEvent: {}
+[5.435939] (-) TimerEvent: {}
+[5.539784] (-) TimerEvent: {}
+[5.654517] (-) TimerEvent: {}
+[5.757210] (-) TimerEvent: {}
+[5.873314] (-) TimerEvent: {}
+[5.975616] (-) TimerEvent: {}
+[6.076057] (-) TimerEvent: {}
+[6.179699] (-) TimerEvent: {}
+[6.280029] (-) TimerEvent: {}
+[6.380319] (-) TimerEvent: {}
+[6.482070] (-) TimerEvent: {}
+[6.597211] (-) TimerEvent: {}
+[6.719312] (-) TimerEvent: {}
+[6.891186] (-) TimerEvent: {}
+[6.992725] (-) TimerEvent: {}
+[7.093323] (-) TimerEvent: {}
+[7.194568] (-) TimerEvent: {}
+[7.314963] (-) TimerEvent: {}
+[7.458120] (-) TimerEvent: {}
+[7.558700] (-) TimerEvent: {}
+[7.660206] (-) TimerEvent: {}
+[7.760658] (-) TimerEvent: {}
+[7.862224] (-) TimerEvent: {}
+[7.963720] (-) TimerEvent: {}
+[8.064832] (-) TimerEvent: {}
+[8.068613] (fake_sensors) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fake_lidar\x1b[0m\n'}
+[8.165024] (-) TimerEvent: {}
+[8.265650] (-) TimerEvent: {}
+[8.367747] (-) TimerEvent: {}
+[8.372622] (fake_sensors) StdoutLine: {'line': b'[100%] Built target fake_lidar\n'}
+[8.392172] (fake_sensors) CommandEnded: {'returncode': 0}
+[8.453987] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'install'}
+[8.465176] (fake_sensors) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aleksander/fake_sensors/src/build/fake_sensors'], 'cwd': '/home/aleksander/fake_sensors/src/build/fake_sensors', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aleksander', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aleksander', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/aleksander/fake_sensors', 'TERM_PROGRAM_VERSION': '1.95.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2185', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aleksander/fake_sensors/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aleksander', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aleksander', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/UBUNTU-LAB:@/tmp/.ICE-unix/2149,unix/UBUNTU-LAB:/tmp/.ICE-unix/2149', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b805caa1_55c1_4d75_bcb7_dc5f6c503b90', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J6ZIX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fbcf5989bb.sock', 'GNOME_TERMINAL_SERVICE': ':1.106', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aleksander/fake_sensors/install/fake_sensors:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aleksander/fake_sensors/src/build/fake_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/aleksander/fake_sensors/install/fake_sensors:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.468086] (-) TimerEvent: {}
+[8.478299] (fake_sensors) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.478579] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/lib/fake_sensors/fake_lidar\n'}
+[8.478662] (fake_sensors) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aleksander/fake_sensors/src/install/fake_sensors/lib/fake_sensors/fake_lidar" to ""\n'}
+[8.478721] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/ament_index/resource_index/package_run_dependencies/fake_sensors\n'}
+[8.478888] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/ament_index/resource_index/parent_prefix_path/fake_sensors\n'}
+[8.478947] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.sh\n'}
+[8.479010] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.dsv\n'}
+[8.479063] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/path.sh\n'}
+[8.479117] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/path.dsv\n'}
+[8.479171] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.bash\n'}
+[8.479269] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.sh\n'}
+[8.479330] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.zsh\n'}
+[8.479384] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.dsv\n'}
+[8.479436] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/package.dsv\n'}
+[8.479489] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/ament_index/resource_index/packages/fake_sensors\n'}
+[8.479664] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig.cmake\n'}
+[8.479762] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig-version.cmake\n'}
+[8.479815] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/package.xml\n'}
+[8.483590] (fake_sensors) CommandEnded: {'returncode': 0}
+[8.570933] (-) TimerEvent: {}
+[8.596791] (fake_sensors) JobEnded: {'identifier': 'fake_sensors', 'rc': 0}
+[8.597427] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/aleksander/fake_sensors/src/install/fake_sensors/lib/fake_sensors/fake_lidar
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/ament_index/resource_index/package_run_dependencies/fake_sensors
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/ament_index/resource_index/parent_prefix_path/fake_sensors
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.sh
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.dsv
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/path.sh
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/environment/path.dsv
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.bash
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.sh
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.zsh
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/local_setup.dsv
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/package.dsv
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/ament_index/resource_index/packages/fake_sensors
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig.cmake
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig-version.cmake
+/home/aleksander/fake_sensors/src/install/fake_sensors/share/fake_sensors/package.xml
